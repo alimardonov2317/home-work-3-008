@@ -40,3 +40,13 @@
       }
       
 }
+@media (max-width: 375px) {
+  .footer {
+    &__navbar {
+      flex-direction: column;
+    }
+    &__logo{
+      margin-bottom: 20px;
+    }
+  }
+}
