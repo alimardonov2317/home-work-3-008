@@ -1,0 +1,28 @@
+.made{
+    padding: 115px 0 40px 0;
+    &__wrapper{
+        text-align: center;
+    }
+    &__title{
+        font-size: 34px;
+        line-height: 36px;
+        margin-bottom: 23px;
+    }
+    &__desc{
+        color: #A0A0A0;
+        max-width: 777px;
+        margin: 0 auto;
+        margin-bottom: 23px;
+        letter-spacing: .8px;
+    }
+}
+@media (max-width: 375px){
+    .made{
+        &__title{
+            font-size: 28px;
+        }
+        &__desc{
+            font-size: 14px;
+        }
+    }
+}

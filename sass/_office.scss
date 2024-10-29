@@ -1,0 +1,46 @@
+.office{
+    background-image: url(../assets/office.png);
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    &__wrapper{
+        color: #FFF;
+    }
+    &__title{
+        font-size: 66px;
+        line-height: 70px;
+        margin-bottom: 14px;
+    }
+    &__desc{
+        font-size: 14px;
+        letter-spacing: .8px;
+        margin-bottom: 30px;
+    }
+    &__btn{
+        background: inherit;
+        color: #FFF;
+        letter-spacing: 1.4px;
+        transition: all .3s ease;
+    }
+    &__btn:hover{
+        color: #000;
+    }
+}
+@media (max-width: 768px){
+    .office{
+        &__title{
+            font-size: 50px;
+        }
+    }
+}
+@media (max-width: 375px){
+    .office{
+        &__title{
+            font-size: 40px;
+        }
+    }
+}

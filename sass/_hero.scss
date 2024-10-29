@@ -1,0 +1,38 @@
+.hero {
+    background-image: url(../assets/hero.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__wrapper {
+        text-align: center;
+        color: #FFF;
+    }
+
+    &__title {
+        font-size: 43px;
+        line-height: 46px;
+        margin-bottom: 12px;
+    }
+    &__desc{
+       margin-bottom: 28px;
+    }
+    &__btn{
+        background: none;
+        color: #FFF;
+        transition: all .3s ease;
+    }
+    &__btn:hover{
+        color: #707a7f;
+    }
+}
+@media (max-width: 375px){
+    .hero{
+        &__title{
+            font-size: 38px;
+        }
+    }
+}
